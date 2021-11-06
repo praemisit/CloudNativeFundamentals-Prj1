@@ -34,7 +34,7 @@ jobs:
         uses: docker/login-action@v1 
         with:
           username: ${{ secrets.praemisit }}
-          password: ${{ secrets.59b76653-0f06-4f35-9145-414d3c59c5ba }}
+          password: ${{ secrets.DOCKERHUB_PRAEMISIT }}
       -
         name: Build and push
         uses: docker/build-push-action@v2
