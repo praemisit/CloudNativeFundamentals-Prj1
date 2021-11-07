@@ -1,0 +1,9 @@
+apiVersion: v1
+name: techtrends
+description: Udacity Cloud Native project
+keywords:
+- techtrends
+version: 1.0.0
+maintainers:
+- name: praemisit
+  email: praemisit@mail.de
